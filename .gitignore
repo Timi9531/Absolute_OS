@@ -1,0 +1,21 @@
+# Ignore everything
+*
+
+# Allow these directories AND their contents
+!hypr/
+!hypr/**
+!ags/
+!ags/**
+!cool-retro-term/
+!cool-retro-term/**
+!fastfetch/
+!fastfetch/**
+!fish/
+!fish/**
+!rofi/
+!rofi/**
+!waybar/
+!waybar/**
+
+# Allow the gitignore file
+!.gitignore
