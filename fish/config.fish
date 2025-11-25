@@ -1,3 +1,7 @@
+if uwsm check may-start
+    exec uwsm start hyprland-uwsm.desktop
+end
+
 set fish_greeting ""
 
 if status is-interactive
