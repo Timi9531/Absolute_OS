@@ -54,15 +54,23 @@ window#waybar{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    font-size: 22px;
+    color: #7900fd;
 }
 
 menu {
 	border-radius: 15px;
-	background: #161320;
-	color: #B5E8E0;
+	background: #131313;
+	color: white;
+
+
 }
 menuitem {
 	border-radius: 15px;
+}
+
+menuitem:hover {
+    background-color: #7900fd;
 }
 
 #language {

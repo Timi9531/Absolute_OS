@@ -1,19 +1,25 @@
 @keyframes rotating {
-    from {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 #solver {
-    animation: 3s linear infinite rotating;
+  animation: 3s linear infinite rotating;
 }
-
 
 #main {
-    background-color: transparent;
+  background-color: transparent;
 }
 
+#SolverMenu {
+  background-color: aqua;
+}
+
+#menuMain {
+  background-color: blueviolet;
+}
